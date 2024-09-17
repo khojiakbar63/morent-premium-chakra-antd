@@ -1,0 +1,15 @@
+.image-checkbox input {
+    display: none;
+  }
+  
+  .image-checkbox .heart-img {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+  }
+  
+  .image-checkbox input:checked + .heart-img {
+    transform: scale(1.2); /* Slight zoom effect when checked */
+  }
+  
